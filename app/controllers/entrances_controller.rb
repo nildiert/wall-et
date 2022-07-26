@@ -3,8 +3,6 @@ class EntrancesController < ApplicationController
 
   # GET /entrances or /entrances.json
   def index
-
-    binding.break
     @entrances = Entrance.all
   end
 
